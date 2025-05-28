@@ -1,4 +1,7 @@
-﻿using EF_code_first.DTOs;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+using EF_code_first.DTOs;
 using EF_code_first.Models;
 using EF_code_first.Properties.Data;
 using Microsoft.EntityFrameworkCore;

@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore.SqlServer;
 using EF_code_first.Properties.Data;
 using EF_code_first.Properties.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 

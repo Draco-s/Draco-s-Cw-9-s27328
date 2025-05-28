@@ -1,4 +1,7 @@
-﻿namespace EF_code_first.DTOs;
+﻿using System;
+using System.Collections.Generic;
+
+namespace EF_code_first.DTOs;
 
 public class PrescriptionDto
 {
